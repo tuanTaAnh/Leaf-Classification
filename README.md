@@ -53,6 +53,3 @@ The project focuses on analyzing how different **training strategies and archite
 The results show that **training strategy and regularization** have a stronger impact than increasing model complexity.
 
 ---
-
-## Repository Structure
-

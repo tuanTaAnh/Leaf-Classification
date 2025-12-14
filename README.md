@@ -52,4 +52,6 @@ The project focuses on analyzing how different **training strategies and archite
 
 The results show that **training strategy and regularization** have a stronger impact than increasing model complexity.
 
----
+**Ta Anh Tuan**  
+Course: *M507C – Methods of Prediction*  
+GitHub: tuan-ta-digit-sense

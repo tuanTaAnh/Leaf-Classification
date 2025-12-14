@@ -54,4 +54,4 @@ The results show that **training strategy and regularization** have a stronger i
 
 **Ta Anh Tuan**  
 Course: *M507C – Methods of Prediction*  
-GitHub: tuan-ta-digit-sense
+GitHub: tuanTaAnh

@@ -9158,7 +9158,7 @@ Gray_Leaf_Spot       0.53      0.87      0.66        82
 </tr>
 <tr>
 <td><strong>Exp 2</strong></td>
-<td><strong>SGD → Adam (lr=1e-3)</strong></td>
+<td><strong>SGD → Adam (lr=1e-4)</strong></td>
 <td><strong>Significant accuracy improvement over Exp 1 using adaptive optimizer</strong></td>
 <td><strong>19.17</strong></td>
 <td><strong>0.72</strong></td>
@@ -9195,7 +9195,7 @@ Gray_Leaf_Spot       0.53      0.87      0.66        82
 <td><strong>Improved generalization vs Exp 4 via stronger regularization</strong></td>
 <td><strong>29,05</strong></td>
 <td><strong>0.67</strong></td>
-<td><strong>0.89</strong></td>
+<td><strong>0.86</strong></td>
 <td><strong>0.29</strong></td>
 <td><strong>0.829</strong></td>
 <td><strong>0.372</strong></td>
@@ -9284,10 +9284,10 @@ Further increasing dropout to <strong>0.6 (Exp 6)</strong> reduced both validati
 Replacing ReLU with <strong>LeakyReLU (Exp 8)</strong> resulted in competitive performance but did not outperform improvements obtained through optimizer tuning and regularization.</p>
 </li>
 <li><p><strong>Increased architectural complexity did not guarantee better performance</strong><br/>
-Adding deeper convolutional layers (Exp 1) or using larger kernels (Exp 4) substantially increased training time without meaningful accuracy gains.</p>
+Adding <strong>deeper convolutional layers (Exp 1)</strong> or using <strong>larger kernels (Exp 4)</strong> substantially increased training time without meaningful accuracy gains.</p>
 </li>
 <li><p><strong>Batch Normalization in convolutional blocks was not beneficial in this setting</strong><br/>
-Applying Batch Normalization after each convolutional layer (Exp 9) increased training time and did not improve validation or test performance.</p>
+Applying <strong>Batch Normalization after each convolutional layer (Exp 9)</strong> increased training time and did not improve validation or test performance.</p>
 </li>
 <li><p><strong>Global Average Pooling trades accuracy for efficiency</strong><br/>
 Replacing Flatten with <strong>Global Average Pooling + Dense64 (Exp 10)</strong> reduced the number of parameters but resulted in slightly lower performance compared to the best-performing configurations.</p>
@@ -9340,12 +9340,6 @@ Replacing Flatten with <strong>Global Average Pooling + Dense64 (Exp 10)</strong
 <h2 id="References">References<a class="anchor-link" href="#References">¶</a></h2><ul>
 <li><p>Kaggle – Corn or Maize Leaf Disease Dataset<br/>
 <a href="https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset">https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset</a></p>
-</li>
-<li><p>TensorFlow / Keras Documentation – Image Classification &amp; CNNs<br/>
-<a href="https://www.tensorflow.org/tutorials/images/classification">https://www.tensorflow.org/tutorials/images/classification</a></p>
-</li>
-<li><p>Scikit-learn – Classification Metrics<br/>
-<a href="https://scikit-learn.org/stable/modules/model_evaluation.html">https://scikit-learn.org/stable/modules/model_evaluation.html</a></p>
 </li>
 <li><p>Github<br/>
 <a href="https://github.com/tuanTaAnh/Leaf-Classification">https://github.com/tuanTaAnh/Leaf-Classification</a></p>
